@@ -6,8 +6,8 @@ def prying_into_the_method
 	puts "We're about to stop because of pry!"
 	
 	def plus_two
-	  num += 2
-	  num
+	  num + 2
+	  return num
 	end
 	
 	this_variable_hasnt_been_interpreted_yet = "The program froze before it could read me!" 
