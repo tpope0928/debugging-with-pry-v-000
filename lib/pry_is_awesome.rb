@@ -5,8 +5,8 @@ def prying_into_the_method
 	puts inside_the_method
 	puts "We're about to stop because of pry!"
 	
-	def plus_two(num = 3)
-	  num + 2
+	def plus_two(num)
+	  num += 5
 	  num
 	end
 	
