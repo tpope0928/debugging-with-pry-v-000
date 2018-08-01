@@ -7,7 +7,6 @@ def prying_into_the_method
 	
 	def plus_two
 	  num + 2
-	  return num
 	end
 	
 	this_variable_hasnt_been_interpreted_yet = "The program froze before it could read me!" 
